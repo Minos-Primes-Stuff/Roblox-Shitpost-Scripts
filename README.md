@@ -3,10 +3,6 @@ This script pretty much makes it so you can see the correct and incorrect tiles.
 
 https://github.com/user-attachments/assets/80245a2d-c76d-4a30-86ab-9d2ae183a43d
 
-
-```
-https://github.com/user-attachments/assets/9008cf65-0624-4643-a0f6-279f9d30715b
-```
 ## Loadstring
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Minos-Primes-Stuff/Roblox-Shitpost-Scripts/refs/heads/main/Squid%20Game"))();
