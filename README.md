@@ -1,5 +1,9 @@
 # Squid Game
 This script pretty much makes it so you can see the correct and incorrect tiles. You won't fall through the incorrect ones though, this makes it easy to bait children into falling. That's all it does, why did I make this?
+
+https://github.com/user-attachments/assets/80245a2d-c76d-4a30-86ab-9d2ae183a43d
+
+
 ```
 https://github.com/user-attachments/assets/9008cf65-0624-4643-a0f6-279f9d30715b
 ```
