@@ -1,1 +1,22 @@
+local segmentsFolder = game.Workspace.segmentSystem.Segments
 
+for _, segment in pairs(segmentsFolder:GetChildren()) do
+	local folder = segment:FindFirstChildWhichIsA("Folder")
+	if folder then
+		for _, part in pairs(folder:GetDescendants()) do
+			if part:IsA("BasePart") then
+				if part.CanCollide then
+					part.Color = Color3.fromRGB(0, 255, 0)
+				else
+					part.Color = Color3.fromRGB(255, 0, 0)
+					
+					local fakePart = part:Clone()
+					fakePart.Position = part.Position + Vector3.new(0, 0.1, 0) 
+					fakePart.CanCollide = true
+					fakePart.Transparency = 1
+					fakePart.Parent = part.Parent
+				end
+			end
+		end
+	end
+end
